@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    max-width: 1200px;
+    margin: auto;
+}
+body {
+    background-color: #f7f7ee;
+    font-family: 'Segoe UI';
+}
+
+img {
+    width: 50px;
+    display: flex;
+    
+}
+ul {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+nav li {
+    background-color: #e8f3df;
+    list-style: none;
+
+}
+
+.elso {
+    display: flex;
+    justify-content: flex-end;
+}
+.masodik {
+
+}
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+header {
+    background-color: #174b38;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+p {
+     padding: 3px;
+}
+
+h3 {
+    color: #d6e1d1;
+
+}
+
+:root {
+    --ink: #24372d;
+    --green: #2c6e50;
+    --dark: #174b38;
+    --mint: #e8f3df;
+    --cream: #f7f7ee;
+    --line: #d6e1d1;
+    --orange: #d77939;
+    --white: #fff;
+  }
+
+  #active {
+    background-color: #d6e1d1;
+    padding: 10px;
+  }
+
+.card {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid 1px  rgba(0, 0, 0, 0.185);
+}
+
+.liter {
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+}
+.szam {
+    border-radius: 10px;
+    background-color: #d6e1d1;
+    padding: 10px;
+    
+}
